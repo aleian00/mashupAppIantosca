@@ -1,0 +1,15 @@
+.navigationUL {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+
+
+}
+.navigationLI{
+  float: left;
+}
+.navigationLI a {
+    display: block;
+    width: 60px;
+}
