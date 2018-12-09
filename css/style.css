@@ -13,3 +13,23 @@
     display: block;
     width: 60px;
 }
+
+.divNames {
+  float: right;
+  margin-bottom: -10;
+/*  margin-top: 50px;*/
+}
+
+.nameTitel{
+  font: italic bold;
+}
+
+h1{
+  display: inline;
+}
+
+#divDate{
+  float: right;
+  position: relative;
+  z-index: 500:
+}

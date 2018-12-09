@@ -8,32 +8,34 @@
     <meta name="description" content="Aktuelles aus der Region">
     <meta name="author" content="Alessio Iantosca">
 
-    <link rel="stylesheet" href="css/style.css?">
+    <link rel="stylesheet" href="css/style.css">
     <script src="javascript/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="javascript/jquery-3.3.1.min.js"></script>
+
   </head>
 
   <body>
-    <ul class="navigationUL">
+    <h1>What's up in my region</h1>
+  <!--  <ul class="navigationUL">
       <li class="navigationLI"><a href="#">Home</a></li>
       <li class="navigationLI"><a href="#">News</a></li>
       <li class="navigationLI"><a href="#"></a></li>
       <li class="navigationLI"><a href="#">About</a></li>
-    </ul>
+    </ul>-->
+    <!-- date -->
+    <div id="divDate"><p id="pDate"></p></div>
+
     <!-- actual nameday -->
-    <p id="names"></p>
+    <br><br>
+    <div class="divNames" id="names">
+      <b class="nameTitel">Today is the nameday of: <b>
+    </div>
+
+    <!-- nau.ch news-->
+    <div id="divNews">
+
     <!-- Map API https://api3.geo.admin.ch/index.html-->
-  <!--  <script src="http://api3.geo.admin.ch/loader.js?lang=en&version=4.4.2" type="text/javascript"></script>
-    <div id="map" class="map"></div>
-    <script type="text/javascript">
-      var layer = ga.layer.create('ch.swisstopo.pixelkarte-farbe');
-      var map = new ga.Map({
-        target: 'map',
-        layers: [layer],
-        view: new ol.View({
-          resolution: 500,
-          center: [2670000, 1160000]
-        })
-      });
-    </script> -->
+
   </body>
 </html>
