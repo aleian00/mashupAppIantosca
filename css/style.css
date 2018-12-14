@@ -1,17 +1,16 @@
-.navigationUL {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: inline;
-
-
+body{
+  background: #2980B9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: black;
+  padding-top: 10px;
+  font-family: 'Noto Serif SC', serif;
 }
-.navigationLI{
-  float: left;
-}
-.navigationLI a {
-    display: block;
-    width: 60px;
+
+.main{
+  width: 80%;
+  margin: auto;
+  opacity: 0.8;
 }
 
 .divNames {
@@ -26,10 +25,25 @@
 
 h1{
   display: inline;
+  color: black;
+/*  text-align: center;*/
 }
 
 #divDate{
   float: right;
   position: relative;
-  z-index: 500:
+  z-index: 500;
+  font-size: 25px;
+  margin-top: 5px;
+  margin-right: 22px;
+}
+
+
+#divNews{
+    height: 100%;
+    width: 70%;
+}
+
+a{
+  color: black !important;
 }
